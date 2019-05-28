@@ -2,7 +2,8 @@
 
 Here in the Koen Lab we study Memory, Aging, and Cognition
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+![image](https://news.nd.edu/assets/253664/1000x562/dome_feature.jpg)
+
 
 ### Markdown
 
