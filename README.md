@@ -1,10 +1,8 @@
 ## Welcome to the Koen Lab
-<html lang="en-US"><head>
+<html lang="en-US"><head> <title> Koen Lab </title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-<!-- Begin Jekyll SEO tag v2.5.0 -->
 <title>Welcome to the Koen Lab </title>
 <meta name="generator" content="Jekyll v3.8.5">
 <meta property="og:title" content="Welcome to the Koen Lab">
