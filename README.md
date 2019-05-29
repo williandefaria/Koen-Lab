@@ -4,4 +4,4 @@ Here in the Koen Lab we study Memory, Aging, and Cognition using electrophysiolo
 
 ![image](https://news.nd.edu/assets/253664/1000x562/dome_feature.jpg)
 
-<a href="https://i.kinja-img.com/gawker-media/image/upload/s--S8H4zPqx--/c_scale,f_auto,fl_progressive,q_80,w_800/wfjk2nrdqurtnow287kd.jpg"> Click here!</a>
+<a href="https://imagesvc.timeincapp.com/v3/fan/image?url=https://thunderousintentions.com/wp-content/uploads/getty-images/2019/02/1094192012.jpeg&c=sc&w=3200&h=2133"> Morgan Foley </a>
