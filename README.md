@@ -1,6 +1,4 @@
 <html lang= "en"> 
-  <head>
-    <title> Koen Lab </title>
   <body>
     <h1>Welcome to the Koen Lab</h1>
 
