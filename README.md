@@ -1,19 +1,23 @@
 ## Welcome to the Koen Lab
 <head>
+<!DOCTYPE html>
+<html>
+<head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
-body {font-family: Arial;}
+* {box-sizing: border-box}
 
-/* Style the tab */
-.tab {
-  overflow: hidden;
-  border: 1px solid #ccc;
-  background-color: #f1f1f1;
+/* Set height of body and the document to 100% */
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Helvetica;
 }
 
-/* Style the buttons inside the tab */
-.tab button {
-  background-color: inherit;
+/* Style tab links */
+.tablink {
+  background-color: #f1f1f1;
+  color: black;
   float: left;
   border: none;
   outline: none;
@@ -21,70 +25,90 @@ body {font-family: Arial;}
   padding: 14px 16px;
   transition: 0.3s;
   font-size: 17px;
+  width: 25%;
 }
 
-/* Change background color of buttons on hover */
-.tab button:hover {
-  background-color: #ddd;
+.tablink:hover {
+  background-color: #fff;
 }
 
-/* Create an active/current tablink class */
-.tab button.active {
-  background-color: #ccc;
-}
-
-/* Style the tab content */
+/* Style the tab content (and add height:100% for full page content) */
 .tabcontent {
+  color: black;
   display: none;
-  padding: 6px 12px;
-  border: 1px solid #ccc;
-  border-top: none;
+  padding: 100px 20px;
+  height: 100%;
 }
+
+#Home {background-color: white;}
+#News {background-color: white;}
+#Contact {background-color: white;}
+#About {background-color: white;}
 </style>
 </head>
 <body>
 
-<h2>Tabs</h2>
-<p>Click on the buttons inside the tabbed menu:</p>
-
-<div class="tab">
-  <button class="tablinks" onclick="openCity(event, 'Home')">Home</button>
-  <button class="tablinks" onclick="openCity(event, 'People')">People</button>
-  <button class="tablinks" onclick="openCity(event, 'Publications')">Publications</button>
-  
-</div>
+<button class="tablink" onclick="openPage('Home', this, '#bbb')">Home</button>
+<button class="tablink" onclick="openPage('People', this, '#bbb')" id="defaultOpen">People</button>
+<button class="tablink" onclick="openPage('Publications', this, '#bbb')">Publications</button>
+<button class="tablink" onclick="openPage('News', this, '#bbb')">News</button>
+<button class="tablink" onclick="openPage('Contact Us', this, '#bbb')">Contact Us</button>
 
 <div id="Home" class="tabcontent">
   <h3>Home</h3>
-  <p>This is the Koen Lab y'all</p>
+  <p>Welcome to the Koen Lab</p>
 </div>
 
 <div id="People" class="tabcontent">
   <h3>People</h3>
-  <p>Joshua Koen, Willian De Faria, Nick Yeh, Sydney Habermann</p> 
+  <p>
+  <ol>
+  <li>Dr. Joshua Koen</li>
+  <li>Morgan Foley</li>
+  <li>Nicholas Yeh</li>
+  <li>Willian Defaria</li>
+  <li>Sydney Habermann</li>
+  </ol>
+  </p> 
 </div>
 
 <div id="Publications" class="tabcontent">
   <h3>Publications</h3>
-  <p>Psych</p>
+  <p>Home is where the heart is..</p>
 </div>
+
+<div id="News" class="tabcontent">
+  <h3>News</h3>
+  <p>Who we are and what we do.</p>
+</div>
+
+<div id="Contact Us" class="tabcontent">
+  <h3>Contact Us</h3>
+  <p>Get in touch, or swing by for a cup of coffee.</p>
+</div>
+
+
 <script>
-function openCity(evt, cityName) {
+function openPage(pageName,elmnt,color) {
   var i, tabcontent, tablinks;
   tabcontent = document.getElementsByClassName("tabcontent");
   for (i = 0; i < tabcontent.length; i++) {
     tabcontent[i].style.display = "none";
   }
-  tablinks = document.getElementsByClassName("tablinks");
+  tablinks = document.getElementsByClassName("tablink");
   for (i = 0; i < tablinks.length; i++) {
-    tablinks[i].className = tablinks[i].className.replace(" active", "");
+    tablinks[i].style.backgroundColor = "";
   }
-  document.getElementById(cityName).style.display = "block";
-  evt.currentTarget.className += " active";
+  document.getElementById(pageName).style.display = "block";
+  elmnt.style.backgroundColor = color;
 }
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
 </script>
    
 </body>
+</html> 
 
 <html lang="en-US"><head> <title> Koen Lab </title>
     <meta charset="UTF-8">
