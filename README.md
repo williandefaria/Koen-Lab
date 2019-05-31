@@ -4,7 +4,7 @@
 
 ## Preview
 
-[![Agency Preview](https://startbootstrap.com/assets/img/screenshots/themes/agency.png)](https://blackrockdigital.github.io/startbootstrap-agency/)
+<img src="https://dome.nd.edu/assets/162724/800x600/4_20.15_inside_the_dome_8.jpg"/>
 
 **[View Live Preview](https://blackrockdigital.github.io/startbootstrap-agency/)**
 
